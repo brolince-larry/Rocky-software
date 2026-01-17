@@ -4,6 +4,7 @@ import { Phone, MapPin, Zap, X } from 'lucide-react';
 
 // Specialized Components
 import ContactForm from './components/ContactForm.jsx';
+import Services from './components/services.jsx';
 import Products from './components/Products.jsx';
 import TechMatrix from './components/TechMatrix.jsx';
 import PaymentIntegration from './components/PaymentIntegration.jsx';
@@ -88,6 +89,7 @@ export default function App() {
 
             {/* MAIN ARCHITECTURE */}
             <main>
+                <Services/>
                 <Products />
                 <TechMatrix />
                 <PaymentIntegration />
